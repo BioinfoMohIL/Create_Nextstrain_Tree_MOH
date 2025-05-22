@@ -1,0 +1,5 @@
+version: 1.2
+workflows:
+ - name: Create_Nextrain_Tree_MOH
+   subclass: WDL
+   primaryDescriptorPath: /create_nextrain_tree.wdl
